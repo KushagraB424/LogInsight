@@ -19,17 +19,6 @@ The project demonstrates **distributed data processing**, **command-line driven 
 
 ---
 
-##  Project Structure
-
--LogInsight/
--├── spark/
--│   ├── log_analysis.py
--│   └── output/
--├── logs/
--│   ├── access.log
--│   └── access2.log
--└── requirements.txt
-
 ##  Requirements
 
 - Python **3.8 – 3.11** (recommended: 3.10)
