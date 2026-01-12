@@ -23,11 +23,11 @@ The project demonstrates **distributed data processing**, **command-line driven 
 
 LogInsight/
 ├── spark/
-│ ├── log_analysis.py
-│ └── output/
+│   ├── log_analysis.py
+│   └── output/
 ├── logs/
-│ ├── access.log
-│ └── access2.log
+│   ├── access.log
+│   └── access2.log
 └── requirements.txt
 
 ##  Requirements
