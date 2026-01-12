@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LogInsight Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>LogInsight – Log Analysis Dashboard</h1>
+
+<div class="upload-box">
+  <input type="file" id="logFile" accept=".log,.txt">
+</div>
+
+<div class="dashboard">
+  <div class="card">
+    <h2>Status Codes</h2>
+    <ul id="status-list"></ul>
+  </div>
+
+  <div class="card">
+    <h2>Top IP Addresses</h2>
+    <ul id="ip-list"></ul>
+  </div>
+
+  <div class="card">
+    <h2>Traffic by Hour</h2>
+    <ul id="hour-list"></ul>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</ht
